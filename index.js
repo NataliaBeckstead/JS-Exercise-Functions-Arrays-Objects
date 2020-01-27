@@ -284,7 +284,7 @@ console.log(getCarInfoById([
 */
 function sortCarInventory(inventory) {
   function compare( a, b ) {
-    if ( a.car_model < b.car_model ){
+    if ( a.car_model.toLowerCase() < b.car_model.toLowerCase()){
       return -1;
     }
     if ( a.car_model > b.car_model ){
