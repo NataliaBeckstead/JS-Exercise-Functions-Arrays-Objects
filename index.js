@@ -65,9 +65,9 @@ console.log(makePersonObject(5, "Leia", "leia@leia.com"));
 */
 console.log("### Challenge `getName`");
 function getName(Leia) {
-  return console.log(`Hello, my name is ${Leia.name}`);
+  return `Hello, my name is ${Leia.name}`;
 }
-getName({ id: 1, name: 'Leia', email: 'leia@leia.com' });
+console.log(getName({ id: 1, name: 'Leia', email: 'leia@leia.com' }));
 
 /**
  * ### Challenge `makeSmartPerson`
